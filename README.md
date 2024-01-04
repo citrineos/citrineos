@@ -39,7 +39,7 @@ To get started with CitrineOS, please read our [Quickstart Guide](https://citrin
 
 ### Test Coverage
 
-OCTT test coverage can be found in our [Test Report](tests/report.csv).
+OCTT test coverage can be found in our [Test Report](TESTS.md).
 
 ## Contributing
 
