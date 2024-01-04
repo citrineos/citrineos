@@ -7,8 +7,8 @@
 | TC_A_01_CSMS | Basic Authentication - Valid username/password combination |&#x2611; <sub><sup>PASS<sup></sub>|
 | TC_A_02_CSMS | Basic Authentication - Username does not equal ChargingStationId |&#x2611; <sub><sup>PASS<sup></sub>|
 |TC_A_03_CSMS | Basic Authentication - Invalid password |&#x2611; <sub><sup>PASS<sup></sub>|
-|TC_A_04_CSMS | TLS - server-side certificate - Valid certificate     |&#x2611; <sub><sup>PASSED<sup></sub>|
-|TC_A_06_CSMS | TLS - server-side certificate - TLS version too low     |&#x2611; <sub><sup>PASSED<sup></sub>|
+|TC_A_04_CSMS | TLS - server-side certificate - Valid certificate     |&#x2611; <sub><sup>PASS<sup></sub>|
+|TC_A_06_CSMS | TLS - server-side certificate - TLS version too low     |&#x2611; <sub><sup>PASS<sup></sub>|
 |TC_A_09_CSMS | Update Charging Station Password for HTTP Basic Authentication - Accepted |&#x2611; <sub><sup>PASS<sup></sub>|
 |TC_A_10_CSMS | Update Charging Station Password for HTTP Basic Authentication - Rejected |&#x2611; <sub><sup>PASS<sup></sub>|
 |TC_A_19_CSMS | Upgrade Charging Station Security Profile - Accepted     |&#x2612; <sub><sup>ISSUE<sup></sub>|
