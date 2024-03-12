@@ -16,42 +16,51 @@ Welcome to the official roadmap for **CitrineOS**. This document outlines the pl
 
 ## Current Version
 
-- **Version**: 0.1.X
-- **Highlights**: Pre-release version. Supports all use cases in "Basic implementation of OCPP 2.0" section of Part 0 of OCPP 2.0.1.
-- **Ongoing Work**: Refactors will be pushed as needed and merged in with updated patch versions.
+- **Version**: 1.0.0
+- **Highlights**: First release version. Passes Core and Advanced Security tests using OCA's Testing Tool (OCTT results in [Tests]) 
+- **Ongoing Work**: Stable release
+- **3rd Party Modules**: Stripe Payment
 
 ---
 
 ## Next Release
 
-- **Target Version**: 1.0.0
-- **Estimated Release Date**: 2023-11-22
+- **Target Version**: 1.1.0
+- **Estimated Release Date**: 2024-04-03
 - **Features & Improvements**:
-  - Support all use cases in Core and Advanced Security Certification Profiles from Part 5 of OCPP 2.0.1
-     - Pass all relevant OCTT tests
-     - Secure OCA Certification
+  - Support for Advanced Device Management & Advanced UI certification profiles
+  - New Location data model supporting:
+    - Geolocation
+    - Device Status
+    - Directus Flows for sending OCPP messages via message api
+  - Misc:
+    - Refactor of CentralSystem code to better support alternative architectures (such as putting CitrineOS behind an api gateway)
+    - In-Memory option for message bus
+    - Refactor of project to be an npm workspace; publication of dependencies to npm registry
 
 ---
 
 ## Future Plans
 
-### 1.0.X
+### 1.2.X
 
 - **Planned Features**:
-  - Improved documentation
-  - Video code walkthrough and demonstration
-  - Move to NestJS
-  - Expand unit, integration, and load test suites
-  - Community testing & improvement of Core and Advanced Security capabilities
+  - ISO 15118 support certification profile
+  - Improved certificate handling
+    - Support for replacing certificates without restarting application
+    - Support for external Certificate Authorities
+  - OICP Roaming module
+  - Scan and Charge
 
-### 1.1.X and Beyond
+### 1.3.X 
 
-- Documentation for third-party module development
-- Payment support
-  - Stripe
-  - PCI Compliance
-- Support remaining OCPP use cases
-- Support for additional infrastructure choices
+- **Planned Features**:
+  - Smart Charging certification profile
+
+### 1.4.X 
+
+- **Planned Features**:
+  - Reservation & Local Authorization List Management certification profiles (completes OCPP 2.0.1 support)
 
 ---
 
@@ -76,3 +85,5 @@ Looking to start making a 3rd-party module now? Let us know now! Although thorou
 The more people interested in helping with development, the more development we can plan.
 
 Thank you for being a part of the **CitrineOS** community! Together, we'll make this project better every day.
+
+[Tests]: TESTS.md
