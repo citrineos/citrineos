@@ -41,6 +41,23 @@ To get started with CitrineOS, please read our [Quickstart Guide](https://citrin
 
 OCTT test coverage can be found in our [Test Report](TESTS.md).
 
+### Hardware Compatibility
+CitrineOS has been successfully tested with systems from the following charging providers:
+
+- ABB
+- aixACCT
+- Alfen
+- ChargePoint
+- ChargeSim
+- Compleo
+- EVBox
+- EVerest
+- SwitchEV
+- VectorInformatik
+- Wallbox
+- XCharge
+
+
 ## Contributing
 
 We welcome contributions from developers and enthusiasts who share our passion for clean energy and sustainable transportation. If you'd like to contribute to CitrineOS, please read our [Contribution Guidelines].
