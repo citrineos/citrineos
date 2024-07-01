@@ -1,11 +1,19 @@
 ---
-name: Bug report
+name: Bug report [Repository-name]
 about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
 
 ---
+
+**Which repository?**
+Is it:
+
+- citrineos-core
+- citrineos-payment
+- citrineos-ocpi
+- citrineos.github.io
 
 **Describe the bug**
 A clear and concise description of what the bug is.
