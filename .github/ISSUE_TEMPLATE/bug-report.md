@@ -1,7 +1,7 @@
 ---
-name: Bug report [Repository-name]
-about: Create a report to help us improve
-title: ''
+name: Bug report
+about: Create a report to help us improve.
+title: My issue name [Repository-name]
 labels: ''
 assignees: ''
 

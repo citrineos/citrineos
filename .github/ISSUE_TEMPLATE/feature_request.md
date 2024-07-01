@@ -1,11 +1,19 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: My feature name [Repository-name]
 labels: ''
 assignees: ''
 
 ---
+
+**Which repository?**
+Is it:
+
+- citrineos-core
+- citrineos-payment
+- citrineos-ocpi
+- citrineos.github.io
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
