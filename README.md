@@ -19,27 +19,16 @@ To get started with CitrineOS, please read our [Quickstart Guide](https://citrin
 
 - **GitHub Repository:** [CitrineOS Repository](https://github.com/citrineos/citrineos)
 - **Website:** [CitrineOS Project Website](https://citrineos.github.io)
-- **Latest Release:** [TBD](https://github.com/citrineos/citrineos/releases)
+- [**See Core Releases**](https://github.com/citrineos/citrineos-core/releases)
 - **Last Commit:** [![Last Commit](https://img.shields.io/github/last-commit/citrineos/citrineos-core)](https://github.com/citrineos/citrineos-core/commits/main)
 
 ### Overview
 
-- Expected to work
-- Complete base implementation of OCPP 2.0.1, including device model
-- Generated OpenAPI specification from OCPP 2.0.1 JSON schema
+- Complete implementation of OCPP 2.0.1, including: Core, Advanced Security, Advanced Device Management, Advanced User Interface, ISO15118 Support, Smart Charging, Reservations, and Local Auth List Management 
+- Generated OpenAPI specification, OCPP 2.0.1 types generated from OCPP 2.0.1 Part 3 JSON schemas
 - Testing conducted through [OCA's OCTT](https://www.openchargealliance.org/protocols/test-tool-ocpp-201/)
 
-### Still working on
 
-- OCA Certification (*OCPP 2.0.1 Core Profile*)
-- Adding plugin management
-- Implementing ISO15118 Plug and Charge (PnC)
-- Adding OCPP inspector for debugging
-- Adding [OCPI 3.0](https://evroaming.org/) reference implementation
-
-### Test Coverage
-
-OCTT test coverage can be found in our [Test Report](TESTS.md).
 
 ### Hardware Compatibility
 CitrineOS has been successfully tested with systems from the following charging providers:
