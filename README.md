@@ -28,7 +28,9 @@ To get started with CitrineOS, please read our [Quickstart Guide](https://citrin
 - Generated OpenAPI specification, OCPP 2.0.1 types generated from OCPP 2.0.1 Part 3 JSON schemas
 - Testing conducted through [OCA's OCTT](https://www.openchargealliance.org/protocols/test-tool-ocpp-201/)
 
+### Roadmap
 
+See on our [project website](https://citrineos.github.io/roadmap.html).
 
 ### Hardware Compatibility
 CitrineOS has been successfully tested with systems from the following charging providers:
