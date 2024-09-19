@@ -11,7 +11,7 @@ For questions and support please join our [Discord](https://discord.gg/FhkRJknV3
 
 ## Getting Started
 
-To get started with CitrineOS, please read our [Quickstart Guide](https://citrineos.github.io/quickstart.html). CitrineOS's core repository is accessible here:
+To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/docs/getting-started.html). CitrineOS's core repository is accessible here:
 
 - [citrineos-core](https://github.com/citrineos/citrineos-core)
 
@@ -30,7 +30,7 @@ To get started with CitrineOS, please read our [Quickstart Guide](https://citrin
 
 ### Roadmap
 
-See on our [project website](https://citrineos.github.io/roadmap.html).
+See on our [project website](https://citrineos.github.io/docs/roadmap.html).
 
 ### Hardware Compatibility
 CitrineOS has been successfully tested with systems from the following charging providers:
