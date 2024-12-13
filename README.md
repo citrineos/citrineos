@@ -1,7 +1,7 @@
 # CitrineOS
 
-![CitrineOS Logo](assets/logo_white.png#gh-dark-mode-only)
-![CitrineOS Logo](assets/logo_black.png#gh-light-mode-only)
+![CitrineOS Logo](assets/citrineos-horizontal-color.svg)
+
 
 The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed having modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of **OCPP 2.0.1** - *Open Charge Point Protocol the standard protocol for communication between charging stations and charge management software*. All modules handle and emit all necessary OCPP messages and are losely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
 
@@ -11,7 +11,7 @@ For questions and support please join our [Discord](https://discord.gg/FhkRJknV3
 
 ## Getting Started
 
-To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/docs/getting-started.html). CitrineOS's core repository is accessible here:
+To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/latest/getting-started/getting-started/). CitrineOS's core repository is accessible here:
 
 - [citrineos-core](https://github.com/citrineos/citrineos-core)
 
@@ -30,7 +30,7 @@ To get started with CitrineOS, please read our [Guide](https://citrineos.github.
 
 ### Roadmap
 
-See on our [project website](https://citrineos.github.io/docs/roadmap.html).
+See on our [project website](https://citrineos.github.io/latest/roadmap/).
 
 ### Hardware Compatibility
 CitrineOS has been successfully tested with systems from the following charging providers:
