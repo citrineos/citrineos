@@ -24,12 +24,12 @@ Project committers will review the contribution in a timely manner, and advise o
 
 ### Pull Requests
 
-#### Branches
+#### Branch Names
 Branch names should follow the [conventional branch](https://conventionalbranch.org/) specification to ensure
-consistency and clarity. An example branch name for a `core` feature:
+consistency and clarity. An example branch name for a new feature:
 
 ```
-feat/a-made-up-ocpp-16-request-handler
+feat/new-ocpp-16-request-handler
 ```
 
 #### Commit Messages
@@ -37,7 +37,7 @@ Commit messages should follow the [conventional commits](https://www.conventiona
 to ensure clean commit history and clarity. An example commit for a `core` feature:
 
 ```
-feat(ocpp): adding new message handler in A-Made-Up-Module for a-made-up-request-type from OCPP 1.6.
+feat(ocpp): adding new message handler in Module for new-request-type from OCPP 1.6.
 ```
 
 #### Opening a Pull Request
@@ -50,7 +50,7 @@ When opening a pull request, descriptions should include:
 4. Any further context that will help reviewers understand the purpose and impact of the change.
 
 ### License Headers
-Every file that is not purposely exempt must include the appropriate license headers:
+Every file that is not purposely exempt from license headers must include the appropriate license headers:
 
 ```ts
 // SPDX-FileCopyrightText: 2026 Contributors to the CitrineOS Project
