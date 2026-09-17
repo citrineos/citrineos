@@ -5,7 +5,7 @@
 
 The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. 
 CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, 
-each encapsulating a subset of functionality pertaining to the definitions defined in **OCPP 1.6 and 2.x** - the *Open Charge Point Protocol*, which is 
+each encapsulating a subset of functionality defined in **OCPP 1.6 and 2.x** - the *Open Charge Point Protocol*, which is 
 the standard protocol for communication between charging stations and charge management software. All modules handle and 
 emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component 
 that relays the messages to the charging station and vice versa.
