@@ -28,7 +28,7 @@ If you are unfamiliar with GitHub pull requests, [refer to this guide](https://d
 
 #### Branching
 
-Branch from the `next` branch, which contains the code for the next release.
+Branch from the most up-to-date development branch for that repository (for example, in `citrineos-core` it's the `next` branch).
 
 Branch names should follow the [conventional branch](https://conventionalbranch.org/) specification to ensure
 consistency and clarity. An example branch name for a new feature:
