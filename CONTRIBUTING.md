@@ -18,13 +18,18 @@ Each contribution must meet the [TypeScript](.eslintrc.json) *coding style* (par
 
 CitrineOS is licensed under the [Apache License 2.0](LICENSE.md) license. Contributions should abide by that standard license.
 
-If you are unfamiliar with contributing to projects on GitHub, [here is a guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
+If you are unfamiliar with contributing to projects on GitHub, [refer to this guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
 Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
 
 ### Pull Requests
 
-#### Branch Names
+If you are unfamiliar with GitHub pull requests, [refer to this guide](https://docs.github.com/en/pull-requests/reference/pull-requests).
+
+#### Branching
+
+Branch from the `next` branch, which contains the code for the next release.
+
 Branch names should follow the [conventional branch](https://conventionalbranch.org/) specification to ensure
 consistency and clarity. An example branch name for a new feature:
 
