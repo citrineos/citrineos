@@ -4,7 +4,7 @@ Thank you for your interest in contributing to CitrineOS. This document explains
 
 For a description of the roles and responsibilities of the various members of the CitrineOS community, refer to our [governance policies].
 
-For the guidelines surrounding AI usage in CitrineOS, refer to our [AI guidelines](AI.md).
+For the guidelines surrounding AI usage in CitrineOS, refer to our [AI guidelines](AI_GUIDELINES.md).
 
 ## How to Contribute a Bug Fix or Change
 

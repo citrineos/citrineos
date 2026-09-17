@@ -62,7 +62,7 @@ If you'd like to contribute to CitrineOS, please refer to our [contribution guid
 
 ## AI Usage
 
-While we allow AI usage in CitrineOS, you must adhere to our [AI guidelines](AI.md).
+While we allow AI usage in CitrineOS, you must adhere to our [AI guidelines](AI_GUIDELINES.md).
 
 ## Governance
 
