@@ -15,11 +15,18 @@ The usage of AI in CitrineOS is not prohibited, but we ask that contributors:
 
 Pull requests that are suspected to be purely AI-written with no human in the loop will be closed without further review.
 
+### Bulk Contributions
+
+Contributions suspected to be part of an autonomous agent's workflow to discover and remedy many unrelated issues will be
+automatically closed without further review. These types of contributions not only waste maintainer time, but also 
+potentially introduce more bugs than the agents aim to remedy because they often lack the context required to properly
+implement the desired behaviors.
+
 ## Communications
 
-Contributors may use AI to assist with communications such as PR descriptions, issues, and comments (e.g. for grammar checking), 
-but we do not allow copy-pasted blocks of AI generated text. If humans are expected to review code and answer questions, 
-then humans are expected to understand any ongoing discussions and communicate effectively.
+Contributors may use AI to assist with communications such as PR descriptions, issues, discussions, and comments 
+(e.g. for grammar checking), but we do not allow copy-pasted blocks of AI generated text. If humans are expected to 
+review code and answer questions, then humans are expected to understand any ongoing discussions and communicate effectively.
 
 Communications such as descriptions, issues, discussions, and comments that are suspected to be AI-written with no human 
 in the loop will be ignored and removed without further review.
