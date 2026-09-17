@@ -18,7 +18,7 @@ For questions and support please join our [Discord](https://discord.gg/FhkRJknV3
 ## Getting Started
 
 To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/latest/getting-started/running-citrineos/). CitrineOS's core repository is accessible here:
-[citrineos-core](https://github.com/citrineos/citrineos-core)
+[citrineos-core](https://github.com/citrineos/citrineos-core).
 
 ## Project Status
 
@@ -30,9 +30,9 @@ To get started with CitrineOS, please read our [Guide](https://citrineos.github.
 ### Overview
 
 - Complete implementation of OCPP 2.0.1, including: Core, Advanced Security, Advanced Device Management, 
-Advanced User Interface, ISO15118 Support, Smart Charging, Reservations, and Local Auth List Management 
-- Generated OpenAPI specification, OCPP 2.0.1 types generated from OCPP 2.0.1 Part 3 JSON schemas
-- Testing conducted through [OCA's OCTT](https://www.openchargealliance.org/protocols/test-tool-ocpp-201/)
+Advanced User Interface, ISO15118 Support, Smart Charging, Reservations, and Local Auth List Management. 
+- Generated OpenAPI specification, OCPP 2.0.1 types generated from OCPP 2.0.1 Part 3 JSON schemas.
+- Testing conducted through [OCA's OCTT](https://www.openchargealliance.org/protocols/test-tool-ocpp-201/).
 
 ### Roadmap
 
@@ -58,15 +58,15 @@ CitrineOS has been successfully tested with systems from the following charging 
 ## Contributing
 
 We welcome contributions from developers and enthusiasts who share our passion for clean energy and sustainable transportation. 
-If you'd like to contribute to CitrineOS, please read our [Contribution Guidelines].
+If you'd like to contribute to CitrineOS, please refer to our [contribution guidelines](CONTRIBUTING.md).
 
 ## AI Usage
 
-While we allow AI usage in CitrineOS, we have a strict set of guidelines users must follow, which you can read in the [AI guidelines](AI.md).
+While we allow AI usage in CitrineOS, you must adhere to our [AI guidelines](AI.md).
 
 ## Governance
 
-This project's governance is located in [GOVERNANCE.md](GOVERNANCE.md).
+Refer to our [governance policies](GOVERNANCE.md).
 
 ## Support
 
@@ -88,4 +88,3 @@ CitrineOS and its subprojects are licensed under the Apache License, Version 2.0
 | ![](https://avatars.githubusercontent.com/u/118277948?s=64&v=4) | [@miriamCodes](https://github.com/miriamCodes) | [citrineos.github.io](citrineos.github.io) |
 
 [Changelog]: CHANGELOG.md
-[Contribution Guidelines]: CONTRIBUTING.md
