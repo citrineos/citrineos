@@ -1,27 +1,62 @@
 # Contributing to CitrineOS
 
-Thank you for your interest in contributing to CitrineOS. This document explains our contribution process and procedures:
+Thank you for your interest in contributing to CitrineOS. This document explains our contribution process and procedures.
 
-* [How to Contribute a Bug Fix or Change](##how-to-contribute-a-bug-fix-or-change)
+For a description of the roles and responsibilities of the various members of the CitrineOS community, refer to our [governance policies].
 
-For a description of the roles and responsibilities of the various members of the CitrineOS community, see the [governance policies].
+For the guidelines surrounding AI usage in CitrineOS, refer to our [AI guidelines](AI.md).
 
 ## How to Contribute a Bug Fix or Change
 
 To contribute code to the project, first read over the [governance policies] page to understand the roles involved.
 
-Each contribution must meet the [TypeScript](.eslintrc.json) *coding style* (part of every repository) and include:
+Each contribution must meet the [TypeScript](.eslintrc.json) *coding style* (part of every repository) and:
 
-* Tests and documentation to explain the functionality.
-* Any new files have [copyright and license headers]
-* Submitted to the project as a pull request.
-
-Each commit message and pull request description should have enough information in it so that other contributors can understand what has been changed and eventually which impact the change will have.
+* Include tests and documentation to explain the functionality.
+* Include the appropriate [copyright and license headers] in any new files.
+* Be submitted to the project as a pull request.
 
 CitrineOS is licensed under the [Apache License 2.0](LICENSE.md) license. Contributions should abide by that standard license.
 
-If you are unfamiliar with contributing to projects on Github, [here is a guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
+If you are unfamiliar with contributing to projects on GitHub, [here is a guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
 Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
 
+### Pull Requests
+
+#### Branches
+Branch names should follow the [conventional branch](https://conventionalbranch.org/) specification to ensure
+consistency and clarity. An example branch name for a `core` feature:
+
+```
+feat/a-made-up-ocpp-16-request-handler
+```
+
+#### Commit Messages
+Commit messages should follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification
+to ensure clean commit history and clarity. An example commit for a `core` feature:
+
+```
+feat(ocpp): adding new message handler in A-Made-Up-Module for a-made-up-request-type from OCPP 1.6.
+```
+
+#### Opening a Pull Request
+
+When opening a pull request, descriptions should include:
+
+1. What the change is.
+2. Why the change is needed.
+3. Reproduction steps (if it's for fixing a bug).
+4. Any further context that will help reviewers understand the purpose and impact of the change.
+
+### License Headers
+Every file that is not purposely exempt must include the appropriate license headers:
+
+```ts
+// SPDX-FileCopyrightText: 2026 Contributors to the CitrineOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+```
+
 [governance policies]: GOVERNANCE.md
+[copyright and license headers]: ##license-specification

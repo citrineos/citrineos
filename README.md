@@ -3,28 +3,34 @@
 ![CitrineOS Logo](assets/citrineos-horizontal-color.svg)
 
 
-The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed having modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of **OCPP 2.0.1** - *Open Charge Point Protocol the standard protocol for communication between charging stations and charge management software*. All modules handle and emit all necessary OCPP messages and are losely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
+The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. 
+CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, 
+each encapsulating a subset of functionality pertaining to the definitions defined in **OCPP 1.6 and 2.x** - the *Open Charge Point Protocol*, which is 
+the standard protocol for communication between charging stations and charge management software. All modules handle and 
+emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component 
+that relays the messages to the charging station and vice versa.
 
-With CitrineOS we hope to speed the adoption to eMobility by providing everyone with a thorougly tested and reliable OCPP 2.0.1 reference implementation. CitrineOS will further enable more focus on new features like local energy management, reservations, PV integration, AI tooling, and many more. The CitrineOS project was initiated by S44 LLC, to help with the electrification of the mobility sector.
+With CitrineOS we hope to speed the adoption to eMobility by providing everyone with a thoroughly tested and reliable 
+OCPP 1.6 and 2.x reference implementation. CitrineOS will further enable more focus on new features like local energy management, reservations, PV integration, AI tooling, and many more. The CitrineOS project was initiated by S44 LLC, to help with the electrification of the mobility sector.
 
 For questions and support please join our [Discord](https://discord.gg/FhkRJknV3N).
 
 ## Getting Started
 
-To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/latest/getting-started/getting-started/). CitrineOS's core repository is accessible here:
-
-- [citrineos-core](https://github.com/citrineos/citrineos-core)
+To get started with CitrineOS, please read our [Guide](https://citrineos.github.io/latest/getting-started/running-citrineos/). CitrineOS's core repository is accessible here:
+[citrineos-core](https://github.com/citrineos/citrineos-core)
 
 ## Project Status
 
 - **GitHub Repository:** [CitrineOS Repository](https://github.com/citrineos/citrineos)
 - **Website:** [CitrineOS Project Website](https://citrineos.github.io)
-- [**See Core Releases**](https://github.com/citrineos/citrineos-core/releases)
+- **Releases:** [See Core Releases](https://github.com/citrineos/citrineos-core/releases)
 - **Last Commit:** [![Last Commit](https://img.shields.io/github/last-commit/citrineos/citrineos-core)](https://github.com/citrineos/citrineos-core/commits/main)
 
 ### Overview
 
-- Complete implementation of OCPP 2.0.1, including: Core, Advanced Security, Advanced Device Management, Advanced User Interface, ISO15118 Support, Smart Charging, Reservations, and Local Auth List Management 
+- Complete implementation of OCPP 2.0.1, including: Core, Advanced Security, Advanced Device Management, 
+Advanced User Interface, ISO15118 Support, Smart Charging, Reservations, and Local Auth List Management 
 - Generated OpenAPI specification, OCPP 2.0.1 types generated from OCPP 2.0.1 Part 3 JSON schemas
 - Testing conducted through [OCA's OCTT](https://www.openchargealliance.org/protocols/test-tool-ocpp-201/)
 
@@ -51,7 +57,12 @@ CitrineOS has been successfully tested with systems from the following charging 
 
 ## Contributing
 
-We welcome contributions from developers and enthusiasts who share our passion for clean energy and sustainable transportation. If you'd like to contribute to CitrineOS, please read our [Contribution Guidelines].
+We welcome contributions from developers and enthusiasts who share our passion for clean energy and sustainable transportation. 
+If you'd like to contribute to CitrineOS, please read our [Contribution Guidelines].
+
+## AI Usage
+
+While we allow AI usage in CitrineOS, we have a strict set of guidelines users must follow, which you can read in the [AI guidelines](AI.md).
 
 ## Governance
 
